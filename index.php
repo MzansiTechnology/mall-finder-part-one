@@ -20,8 +20,8 @@
     responsive sites -->
     <header class="col-md-12">
          
-         <div class="ad1"><!-- Code to your banner here --></div>
-         <div class="page-header"><a href="http://mzansitechnology.co.za/demos/mallfinder/">The Mall Finder<a/></div>
+         <div class="ad1"></div>
+         <div class="page-header"><a href="http://mzansitechnology.co.za/demos/mallfinder/">The Mall Finder</a></div>
          <!-- We will use Bootstrap's default NAVBAR class to create our navigation bar -->
          <nav class="navbar navbar-default" role="navigation">
            <!-- The magic happens when you add .nav .navbar-nav classes to your unordered list -->
@@ -34,16 +34,21 @@
            </ul>
          </nav>
        </header>
-    <section class="col-md-12">
+   
       <section class="col-md-8">
          <h3>List of recently added malls</h3>
+         <div style="float: left;padding: 10px;"><a href="app/database.php">Test Connection</a></div>
       </section>
       <aside class="col-md-4">
+       <div style="float: left;padding: 10px;"><a href="app/database.php">Test Connection</a></div>
       <h3>Follow us</h3>
+      <div class="ad2"></div>
+      <div class="ad3"></div>
       </aside>
-      
-    </section>
-    <footer class="col-md-12">&copy; <?php echo date('Y', time()); ?></footer>
+    
+    <footer class="col-md-12">&copy;<?php echo date('Y', time()); ?>
+    <div style="float: left;padding: 10px;"><a href="app/database.php">Test Connection</a></div>
+    </footer>
   </section>
 </body>
 </html>
